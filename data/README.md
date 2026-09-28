@@ -15,6 +15,4 @@ Patient IDs are used to align feature rows with cough and vowel audio-path table
 
 The canonical code expects feature records and audio metadata with known columns such as `id`, `disease`, `cough_path`, and `vowel_path`, although historical tables also use names such as `disease_y` and contain segment-level fields.
 
-Historical files use more than one label-encoding convention. Do not assume that a historical artifact or checkpoint follows the canonical mapping without checking its training provenance.
-
-No dataset URL is provided because the original project evidence does not establish one authoritative redistribution source.
+Historical files use more than one label-encoding convention. 
