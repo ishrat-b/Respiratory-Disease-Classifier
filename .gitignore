@@ -1,0 +1,44 @@
+# Local data and generated artifacts
+*.wav
+*.flac
+*.mp3
+*.ogg
+*.csv
+*.xlsx
+*.zip
+cache_storage/
+spectrogram_cache_efficientnet/
+output_folder/
+results/generated/
+respiratory_classification_project/**/segmented/
+respiratory_classification_project/**/Gracy_cleaned/
+
+# Original local working trees and generated project material
+first_iterations/
+respiratory_classification_project/
+archive/original_project/**
+!archive/original_project/README.md
+!archive/original_project/stacked_pipeline_original.py
+
+# Local environment/configuration
+.env
+.vscode/
+
+# Model artifacts
+*.joblib
+*.pkl
+*.pth
+*.pt
+
+# Notebook and OS metadata
+.ipynb_checkpoints/
+._*
+~$*
+Thumbs.db
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
