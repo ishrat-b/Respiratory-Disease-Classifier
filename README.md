@@ -69,6 +69,7 @@ Older notebooks may use different label encodings.
 - `src/` — reusable preprocessing, feature extraction, model, and inference code, along with final stacked pipeline.
 - `docs/` — methodology, approaches explored, and known issues.
 - `data/` — notes on expected data and labels, raw recordings and dataset tables are not included.
+- `models/` — contains readme detailing the final two-staged model architecture.
 - `notebooks/exploration/` — early exploration, segmentation, and feature work.
 - `notebooks/experiments/` — model comparisons, alternate branches, and vowel-only experiments.
 - `notebooks/final_pipeline/` — curated preprocessing and patient-split notebooks.
