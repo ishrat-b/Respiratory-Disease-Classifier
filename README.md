@@ -66,16 +66,12 @@ Older notebooks may use different label encodings.
 
 ## Repository layout
 
-- `src/` — reusable preprocessing, feature extraction, model, and inference code.
+- `src/` — reusable preprocessing, feature extraction, model, and inference code, along with final stacked pipeline.
 - `docs/` — methodology, approaches explored, and known issues.
-- `data/` — notes on expected data and labels. Raw recordings and dataset tables are not included.
-- `models/` — model-artifact policy and provenance notes.
-- `results/` — notes on interpreting experiment-specific metrics and figures.
+- `data/` — notes on expected data and labels, raw recordings and dataset tables are not included.
 - `notebooks/exploration/` — early exploration, segmentation, and feature work.
 - `notebooks/experiments/` — model comparisons, alternate branches, and vowel-only experiments.
 - `notebooks/final_pipeline/` — curated preprocessing and patient-split notebooks.
-- `scripts/` — currently reserved; there is no supported command-line runner.
-- `archive/` — selected original and experimental project material.
 
 ## Setup and running the project
 
