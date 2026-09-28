@@ -103,9 +103,12 @@ They should be read with the corresponding data split, preprocessing branch, lab
 
 For our project, we prioritized the following metrics: accuracy, recall and F1 score. 
 
-For the final pipeline (two staged model), we obtained: 
+For the final pipeline (two staged model), we obtained:
+
 Accuracy: 69.13%
+
 Recall: 69.13%
+
 F1 score: 68.87%
 
 Raw audio and source datasets are not redistributed here. 
